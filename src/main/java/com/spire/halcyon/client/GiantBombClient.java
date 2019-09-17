@@ -20,7 +20,7 @@ public class GiantBombClient {
     private final String baseContext = "https://www.giantbomb.com";
     private final String gamesUrl = "/api/games/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&field_list=id,name,platforms,genres,expected_release_day,expected_release_month,expected_release_year&filter=";
     private final String gameUrl = "/api/game/%d/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&field_list=id,name,platforms,genres,expected_release_day,expected_release_day,expected_release_month,expected_release_year,image,publishers";
-    private final String gamesByPlatform = "/api/games/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&platforms=%s&field_list=id,name,platforms,genres,expected_release_day,expected_release_month,expected_release_year";
+    private final String gamesByPlatform = "/api/games/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&platforms=%s&field_list=id,name,platforms,genres,expected_release_day,expected_release_month,expected_release_year,image";
     private final String platformsUrl = "/api/platforms/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&filter=name:%s";
     private HttpClient httpClient;
 
