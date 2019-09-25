@@ -21,8 +21,11 @@ public class Image {
     private String thumb_url;
     @JsonProperty("tiny_url")
     private String tiny_url;
+    @JsonProperty("original")
+    private String original;
     @JsonProperty("original_url")
     private String original_url;
     @JsonProperty("image_tags")
     private String imageTags;
+    private String tags;
 }

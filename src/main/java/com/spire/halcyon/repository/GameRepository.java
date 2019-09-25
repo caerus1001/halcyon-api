@@ -10,5 +10,5 @@ import java.util.List;
 @Repository
 public interface GameRepository extends MongoRepository<Game, String> {
     List<Game> findByPlatformsIn(List<Platform> platforms);
-     List<Game> findByPlatforms_name(String name);
+    List<Game> findByPlatforms_name(String name);
 }

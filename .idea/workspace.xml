@@ -2,17 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac9d300-97f4-478e-be0e-f3081ee2568c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Concept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/DLC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Franchise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/GameRating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/ImageTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/RatingBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Release.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Theme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/VideoCategory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/client/GiantBombClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/client/GiantBombClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Platform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/service/GameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/halcyon-api-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/halcyon-api-0.1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/client/GiantBombClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/client/GiantBombClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Platform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/repository/GameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/service/GameService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -225,13 +259,12 @@
       <workItem from="1568174784316" duration="8910000" />
       <workItem from="1568264520767" duration="3506000" />
       <workItem from="1568693669099" duration="3782000" />
+      <workItem from="1568869454321" duration="1290000" />
+      <workItem from="1568956035661" duration="45000" />
+      <workItem from="1568956093330" duration="9443000" />
+      <workItem from="1569299169923" duration="9057000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="api_[test] - 2019.07.23 at 23h 09m 00s.xml">
-      <configuration name="api [test]" configurationId="GradleRunConfiguration" />
-    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />

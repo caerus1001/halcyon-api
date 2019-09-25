@@ -1,10 +1,8 @@
 package com.spire.halcyon.service;
 
-import com.mongodb.client.AggregateIterable;
 import com.spire.halcyon.client.Filters;
 import com.spire.halcyon.client.GiantBombClient;
 import com.spire.halcyon.model.Game;
-import com.spire.halcyon.model.Genre;
 import com.spire.halcyon.model.Platform;
 import com.spire.halcyon.repository.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,24 +47,9 @@ public class GameService {
         return giantBombClient.getGame(id);
     }
 
-    public List<Game> getGamesByPlatforms(List<Platform> platforms) throws Exception {
-        List<Game> customGames = gameRepository.findByPlatformsIn(platforms);
-
-        List<Game> gamesByPlatform = giantBombClient.getGamesByPlatforms(platforms);
-        return null;
-    }
-
     public List<Game> getGamesByPlatform(String platformName) throws Exception {
-        List<Game> customGames = gameRepository.findByPlatforms_name(platformName);
-
         Platform platform = giantBombClient.getPlatformByName(platformName);
-        List<Game> gamesByPlatformFromClient = giantBombClient.getGamesByPlatform(platform.getId());
-
-        List<Game> allGames = new ArrayList<>();
-        allGames.addAll(customGames);
-        allGames.addAll(gamesByPlatformFromClient);
-
-        return allGames;
+        return giantBombClient.getGamesByPlatform(platform.getId());
     }
 
     public void createGame(Game game) {

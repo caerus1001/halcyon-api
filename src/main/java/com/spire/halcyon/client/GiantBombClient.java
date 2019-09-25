@@ -13,14 +13,14 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.*;
-import java.util.stream.Collectors;
 
 @Component
 public class GiantBombClient {
     private final String baseContext = "https://www.giantbomb.com";
     private final String gamesUrl = "/api/games/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&field_list=id,name,platforms,genres,expected_release_day,expected_release_month,expected_release_year&filter=";
-    private final String gameUrl = "/api/game/%d/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&field_list=id,name,platforms,genres,expected_release_day,expected_release_day,expected_release_month,expected_release_year,image,publishers";
+    private final String gameUrl = "/api/game/%d/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json";
     private final String gamesByPlatform = "/api/games/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&platforms=%s&field_list=id,name,platforms,genres,expected_release_day,expected_release_month,expected_release_year,image";
+    private final String platformUrl = "/api/platform/%s/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json";
     private final String platformsUrl = "/api/platforms/?api_key=a5613655d4fbe99880d6ce40a22662ae388c0b15&format=json&filter=name:%s";
     private HttpClient httpClient;
 
@@ -60,10 +60,6 @@ public class GiantBombClient {
         return objectMapper.readValue(resultsArray.toString(), Game.class);
     }
 
-    public List<Game> getGamesByPlatforms(List<Platform> platforms) {
-        return null;
-    }
-
     public List<Game> getGamesByPlatform(String id) throws Exception {
         HttpRequest httpRequest = buildRequest(String.format(baseContext + gamesByPlatform, id), "GET");
 
@@ -83,7 +79,18 @@ public class GiantBombClient {
         ObjectMapper objectMapper = new ObjectMapper();
         List<Platform> platforms = objectMapper.readValue(resultsArray.toString(), TypeFactory.defaultInstance().constructCollectionType(List.class, Platform.class));
 
-        return platforms.stream().filter(platform -> platform.getName().equals(platformName)).findFirst().orElseThrow();
+        Platform foundPlatform =  platforms.stream().filter(platform -> platform.getName().equals(platformName)).findFirst().orElseThrow();
+        return getPlatform(foundPlatform.getGuid());
+    }
+
+    private Platform getPlatform(String guid) throws Exception {
+        HttpRequest httpRequest = buildRequest(String.format(baseContext + platformUrl, guid), "GET");
+
+        HttpResponse<String> httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
+        JSONObject resultsObject = new JSONObject(httpResponse.body()).getJSONObject("results");
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.readValue(resultsObject.toString(), Platform.class);
     }
 
     private HttpRequest buildRequest(String requestUrl, String method) {
