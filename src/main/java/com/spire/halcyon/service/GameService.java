@@ -15,7 +15,6 @@ public class GameService {
     private GameRepository gameRepository;
     private GiantBombClient giantBombClient;
 
-    @Autowired
     public GameService(GameRepository gameRepository, GiantBombClient giantBombClient) {
         this.gameRepository = gameRepository;
         this.giantBombClient = giantBombClient;
@@ -52,7 +51,7 @@ public class GameService {
         return giantBombClient.getGamesByPlatform(platform.getId());
     }
 
-    public void createGame(Game game) {
-        gameRepository.save(game);
+    public Game createGame(Game game) {
+        return gameRepository.save(game);
     }
 }

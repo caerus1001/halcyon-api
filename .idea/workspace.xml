@@ -2,50 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bac9d300-97f4-478e-be0e-f3081ee2568c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Concept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/DLC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Franchise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/GameRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/ImageTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/RatingBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Region.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Release.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Theme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/VideoCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spire/halcyon/repository/GameRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spire/halcyon/rest/GameControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spire/halcyon/service/GameServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/client/GiantBombClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/client/GiantBombClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Company.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Genre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Image.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/model/Platform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/rest/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/rest/GameController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/service/GameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/spire/halcyon/service/GameService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/halcyon-api-0.1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/halcyon-api-0.1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/test.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/client/GiantBombClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/client/GiantBombClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/model/Platform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/repository/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/repository/GameRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/rest/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/rest/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/service/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spire/halcyon/service/GameService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,7 +119,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="show.inlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunDashboard">
@@ -174,6 +147,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="GameServiceTest.CreateGame_ValidGameProvided_GameShouldBeNonNull" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.spire.halcyon.service.GameServiceTest.CreateGame_ValidGameProvided_GameShouldBeNonNull&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="api [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -213,6 +206,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="halcyon-api [testClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testClasses" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="halcyon-api.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spire.halcyon.Application" />
@@ -222,9 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.api [test]" />
+        <item itemvalue="Gradle.halcyon-api [testClasses]" />
+        <item itemvalue="Gradle.GameServiceTest.CreateGame_ValidGameProvided_GameShouldBeNonNull" />
         <item itemvalue="Gradle.api [build]" />
         <item itemvalue="Application.GiantBombClient" />
-        <item itemvalue="Gradle.api [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -263,6 +277,10 @@
       <workItem from="1568956035661" duration="45000" />
       <workItem from="1568956093330" duration="9443000" />
       <workItem from="1569299169923" duration="9057000" />
+      <workItem from="1569385154700" duration="1410000" />
+      <workItem from="1569902741545" duration="154000" />
+      <workItem from="1569903030288" duration="7446000" />
+      <workItem from="1570077866020" duration="1460000" />
     </task>
     <servers />
   </component>

@@ -11,7 +11,6 @@ import java.util.List;
 public class GameController {
     public GameService gameService;
 
-    @Autowired
     public GameController(GameService gameService) {
         this.gameService = gameService;
     }
@@ -33,8 +32,8 @@ public class GameController {
     }
 
     @PostMapping("/games")
-    public void createGame(@RequestBody Game game) {
-        gameService.createGame(game);
+    public Game createGame(@RequestBody Game game) {
+        return gameService.createGame(game);
     }
 
     @GetMapping("/game/{id}")
